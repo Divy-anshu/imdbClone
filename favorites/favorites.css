@@ -1,0 +1,11 @@
+/* Custom CSS  */
+body {
+    background-color: rgb(12, 60, 103);
+}
+
+.card .card-img-top {
+    height: 280px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* Crop or fit the poster image within the fixed height */
+}

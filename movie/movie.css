@@ -1,0 +1,55 @@
+/* Center-align content vertically */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* custom background to make blury effect */
+#background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+/* Style header */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Style main content */
+.main-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style movie poster */
+#movie-poster {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style movie title */
+#movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style movie details */
+#movie-year,
+#movie-plot {
+    margin-top: 10px;
+}

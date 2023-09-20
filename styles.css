@@ -1,0 +1,64 @@
+/* custom CSS styles here */
+body {
+    background-color: #323f4b;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.favorite-btn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+}
+
+.remove-btn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+}
+
+#search-input {
+    width: 98%;
+    margin-left: 1%;
+}
+
+.card .card-img-top {
+    height: 300px;
+    /* Adjust the height as needed */
+    object-fit: cover;
+    /* Crop or fit the poster image within the fixed height */
+}
+
+#fav-head {
+    display: inline;
+}
+
+#fav-head span {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* Style the suggestions dropdown */
+#suggestions-dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+    color: black;
+}
+
+.suggestion-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}

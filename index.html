@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mini IMDB Clone</title>
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Mini IMDB Clone</h1>
+        <!-- Search input -->
+        <input id="search-input" class="form-control" type="text" placeholder="Search for a movie...">
+         <!-- Suggestions dropdown container -->
+         <div id="suggestions-dropdown"></div>
+    </header>
+    <main class="fluid-container m-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="text-white">Search Results</h4>
+                <div id="search-results" class="row">
+                    <!-- Search results will be displayed here -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="fav-head">
+                    <span class="text-white">My Favourite Movies</span>
+                    <a class="float-right" href="favorites/favorites.html"><button class="btn btn-light">All Favorites</button></a>
+                </div>
+                <br><br>
+                <ul id="favorites-list" class="list-group">
+                    <!-- Favorite movies will be displayed here -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
